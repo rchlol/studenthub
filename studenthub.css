@@ -1,0 +1,94 @@
+body { font-family: Verdana, serif;
+      margin: 115px 0px;
+      background-color: #ffffff;
+
+    }
+    
+header {
+      background-color: rebeccapurple;
+      color: #eee6ff;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 12%;
+      margin-left: 0;
+    }
+
+.navbar li {
+  overflow: hidden;
+  align-items: center;
+  display: inline;
+  background-color: rebeccapurple;
+}
+
+.navbar li a {
+  float: left;
+  color: #e0ccff;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #e0ccff;
+  color: rebeccapurple;
+}
+
+.navbar li a.active {
+  background-color: 592D86;
+  color: #e0ccff;
+  }
+
+.navbar li h1 a.site {
+	color: white;
+        text-decoration: none;
+	text-align: center;
+	line-height: 50%;
+	padding-right: 5%;
+}
+
+.navbar li h1 a:hover {
+      background-color: rebeccapurple;
+      color: #eee6ff;
+}
+
+
+.content h1 {
+	text-align: center;
+}
+
+.blocks {
+      display: grid;
+      grid-template-columns: 40em 40em;
+      grid-template-rows: 15em 15em;
+      gap: 2em 2.5em;
+      align-items: center;
+	justify-content: center;
+
+   }
+
+.block {
+      background-color: #eee6ff;
+      color: #3d0099;
+      text-align: center;
+      line-height: 9em;
+      font-size: 1.6em;
+      cursor: pointer;      
+      text-decoration: none;
+
+
+    }
+
+.block:hover {
+      background-color: #e0ccff;
+    }
+
+
+footer {
+      color: #333;
+      padding: 0.01em 1em;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
